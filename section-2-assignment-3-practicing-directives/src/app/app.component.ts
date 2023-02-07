@@ -6,12 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  paragraphVisible = false;
+  title = 'section-2-assignment-3-practicing-directives';
+
+  showSecret = false;
 
   clicksArray = [];
 
   toggleParagraphVisible() {
-    this.paragraphVisible = !this.paragraphVisible;
+    this.showSecret = !this.showSecret;
   }
 
+  toggleSecret() {
+    this.showSecret = !this.showSecret;
+  }
 }
