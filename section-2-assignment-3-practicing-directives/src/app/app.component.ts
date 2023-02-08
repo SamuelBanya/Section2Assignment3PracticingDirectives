@@ -10,7 +10,7 @@ export class AppComponent {
 
   showSecret = false;
 
-  clicksArray = [];
+  log = [];
 
   toggleParagraphVisible() {
     this.showSecret = !this.showSecret;
@@ -18,5 +18,6 @@ export class AppComponent {
 
   toggleSecret() {
     this.showSecret = !this.showSecret;
+    this.log.push(this.log.length + 1);
   }
 }
