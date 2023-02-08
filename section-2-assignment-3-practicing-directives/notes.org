@@ -1,0 +1,4 @@
+* Major Takeways 
+- This lesson used the 'ngStyle' directive to change an HTML color style on the fly with a related expression via data binding for a two way street style communication based upon the 'logItem' variable within the component Typescript file
+- This lesson also used 'ngClass' directive to change the class of a given tag based upon the properties of the 'logItem' variable within the component Typescript file
+- The following '43. Getting the Index when using ngFor' lesson then grabbed the 'i' index accordingly  to do the same actions

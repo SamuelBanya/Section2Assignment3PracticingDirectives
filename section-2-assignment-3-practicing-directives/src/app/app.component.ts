@@ -18,6 +18,8 @@ export class AppComponent {
 
   toggleSecret() {
     this.showSecret = !this.showSecret;
-    this.log.push(this.log.length + 1);
+    // NOTE: This is a revision as per the '43. Getting the Index when using ngFor' lesson to use Date timestamps instead of just adding the .length property:
+    // this.log.push(this.log.length + 1);
+    this.log.push(new Date());
   }
 }
